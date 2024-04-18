@@ -7,31 +7,49 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      integrity="sha384-QWTKZyjpPEjISv5<WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
   </head>
   <body>
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 sticky-top bg-white">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-        <span class="fs-4 bg-danger text-white rounded-3 ms-5 ps-3 pe-3">Simple header</span>
-      </a>
-
-      <ul class="nav nav-pills gap-3 pe-5">
-        <li class="nav-item">
-          <a href="/" class="nav-link bg-danger text-white dropdown-item" aria-current="page">Home</a>
-        </li>
-        <li class="nav-item">
-          <a id="about-us-button" href="#about-us" class="nav-link bg-danger text-white">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a id="contact-us-button" href="#contact-us" class="nav-link bg-danger text-white">Contact us</a>
-        </li>
-      </ul>
+    <header
+      class="d-flex flex-wrap justify-content-center py-3 mb-4 sticky-top bg-white navbar navbar-expand-lg bg-body-tertiary"
+    >
+      <div class="container-fluid">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <span class="fs-4 bg-danger text-white rounded-3 ms-5 ps-3 pe-3">Simple header</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav nav-pills gap-3 pe-5 navbar-nav ms-auto">
+            <li class="nav-item m-auto justify-content-end">
+              <a href="/" class="nav-link bg-danger text-white dropdown-item ps-3 pe-3" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item m-auto">
+              <a id="about-us-button" href="#about-us" class="nav-link bg-danger text-white ps-3 pe-3">About Us</a>
+            </li>
+            <li class="nav-item m-auto">
+              <a id="contact-us-button" href="#contact-us" class="nav-link bg-danger text-white ps-3 pe-3"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <div class="px-4 pt-2 my-5 text-center">
       <h1 class="display-4 fw-bold text-danger">Atlas Services</h1>
-      <div class="col-lg-8 mx-auto mt-5">
+      <div class="col-lg-6 mx-auto mt-5">
         <p class="lead mb-5">
           Atlas Security Solutions: Fortifying Your World with Unmatched Vigilance. Our elite team of security
           professionals, drawn from diverse backgrounds including military and law enforcement, stands as the forefront
@@ -57,7 +75,7 @@
     <div>
       <h1 class="text-center p-5 fs-1 fw-bold" id="about-us-section">ABOUT US</h1>
     </div>
-    <div class="row g-5 row-cols-1 row-cols-lg-4 d-flex justify-content-around ms-2 me-2">
+    <div class="row g-3 row-cols-1 row-cols-lg-4 d-flex justify-content-center ms-5 me-5 text-center w-5">
       <div class="feature col">
         <div
           class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
