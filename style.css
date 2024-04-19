@@ -8,3 +8,7 @@ a:hover {
   cursor: pointer;
   border-bottom: 1px solid gray;
 }
+.logo:hover {
+  cursor: pointer;
+  border-style: none;
+}
