@@ -3,3 +3,8 @@
   margin: 0;
   padding: 0;
 }
+
+a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+}
