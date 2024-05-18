@@ -2,6 +2,8 @@ const aboutButton = document.querySelector("#about-us-button");
 const contactButton = document.querySelector("#contact-us-button");
 const aboutSection = document.querySelector("#about-us-section");
 
+// selectors
+
 const aboutFooter = document.querySelector("#about-us-footer");
 const contactFooter = document.querySelector("#contact-us-footer");
 
